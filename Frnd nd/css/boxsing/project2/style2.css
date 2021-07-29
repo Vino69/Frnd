@@ -1,0 +1,29 @@
+#main-nav li:hover .submenu>li{
+    display: block;
+    top:0px
+}
+.submenu li{
+    display: none;
+    position: absolute;
+    top: 0px;
+}
+.submenu{
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+}
+.submenu li{
+    position:relative;
+}
+.submenu li:hover .submenu2 li{
+    display: block;
+}
+.submenu2{
+    display: flex;
+    padding-left:80%;
+    flex-direction: column;
+    top: 0px;
+    left: 100%;
+    width:500px;
+}
